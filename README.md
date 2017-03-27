@@ -14,6 +14,9 @@ https://open.weixin.qq.com/connect/oauth2/authorize?appid=APP_ID&redirect_uri=RE
 wechat-oauth2-proxy 的出现是为了破除这种限制。
 
 ## 部署指南
+### 需求
++ Node >= 7.6.0
+
 ### 环境变量
 该应用使用环境变量控制应用运行状态。
 
