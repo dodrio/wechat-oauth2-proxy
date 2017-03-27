@@ -69,5 +69,8 @@ wechat-oauth2-proxy 对 Query String 进行处理，重定向到：
 https://mall.example.com/user/profile?fields=username,age,email&code=CODE&state=STATE
 ```
 
+## 其他类似项目
++ [HADB/GetWeixinCode](https://github.com/HADB/GetWeixinCode)
+
 ## LICENSE
 MIT
