@@ -1,0 +1,6 @@
+# dev configuration file
+.env
+
+# public
+/public/*
+!/public/.gitkeep
