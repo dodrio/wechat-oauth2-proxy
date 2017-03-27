@@ -1,6 +1,6 @@
 {
   "name": "wechat-oauth2-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Proxy for wechat OAuth2",
   "main": "index.js",
   "scripts": {
