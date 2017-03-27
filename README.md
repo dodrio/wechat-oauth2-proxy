@@ -27,14 +27,14 @@ https://open.weixin.qq.com/connect/oauth2/authorize?appid=APP_ID&redirect_uri=RE
 
 在使用 wechat-oauth2-proxy 前，REQUEST_URI 为：
 
-```js
+```
 // encodeURIComponent('https://mall.example.com/user/profile?fields=username,age,email')
 https%3A%2F%2Fmall.example.com%2Fuser%2Fprofile%3Ffields%3Dusername%2Cage%2Cemail
 ```
 
 在使用 wechat-oauth2-proxy 后，REQUEST_URI 为：
 
-```js
+```
 // encodeURIComponent('https://op.example.com?redirect=https://mall.example.com/user/profile?fields=username,age,email')
 https%3A%2F%2Fop.example.com%3Fredirect%3Dhttps%3A%2F%2Fmall.example.com%2Fuser%2Fprofile%3Ffields%3Dusername%2Cage%2Cemail
 ```
