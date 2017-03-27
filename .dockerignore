@@ -1,0 +1,16 @@
+# Docker Related
+.dockerignore
+Dockerfile
+
+# Git Related
+.git
+.gitignore
+
+# Dev Related
+.env
+
+# Emacs Related
+*~
+
+# Node Related
+node_modules
